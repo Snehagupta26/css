@@ -1,0 +1,16 @@
+body{
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+   /* background-color: blue;*/
+    background: papayawhip;
+    color: darkblue;
+    color: rgb(0,0,0);
+}
+p{
+    color: rgba(0,0,0,0.5);/*a is alpha visivility*/
+    color: #000000;
+    color: hsl(0, 61%, 11%);/*hexadecimal*/
+    /*ffffff = fff ff0000 = f00 shorthand kra pair kra*/
+   /* hsl hue saturation lightness*/
+}

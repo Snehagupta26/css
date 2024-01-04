@@ -1,0 +1,36 @@
+css - cascading style sheet
+presenatation of doc
+html - strcuture
+css- designing of structutre
+3 ways to apply-
+external style sheet- commonly used
+internal
+inline- usually avoid
+no precedence order vice para jayega
+p{
+    color: red;
+}
+p- selector
+color - property
+red - prop value
+whole declartion
+
+selector
+element selector
+
+whichever css read at last vo lagega
+
+class r more specific than element selector
+
+form elements do not inherit
+
+button,input,textarea,select{
+    font: inherit;
+}
+aese krna hoga
+main{
+
+}
+html ya body dono same
+element<<class<id selector
+!important ye zaur jayega

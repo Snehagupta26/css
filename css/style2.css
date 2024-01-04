@@ -1,0 +1,44 @@
+/*element selector*/
+*{
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid red;
+}
+body{
+    font-size:22px;
+    border: 3px solid black;
+}
+
+p{
+    color:purple!important;
+}
+h1{
+    color: blue;
+}
+h1 h2/*means h2 inside h1*/{
+    color:green;
+}
+h1,h2/*h2,h1*/{
+    color:green;
+}
+
+
+/*MOST COMMON class selector.....gray is class name,overrule above p*/
+.gray{
+    color : gray;
+}
+.sneha{
+    color: pink;
+}
+/*id selector....id should be unique*/
+#second{
+    font-style: italic;
+}
+
+p span{
+    text-transform: uppercase;
+    background-color:  gold;
+}
+.highlight{
+    background: purple;
+    text-transform: uppercase;
+}

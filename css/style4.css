@@ -1,0 +1,17 @@
+header {
+  width: 50%;
+}
+
+p{
+    font-size: 32px;/*dont use let browser decide*/
+}
+h1{
+    border: 2px dashed red;
+    width: 50%;
+}
+p{
+    font-size: 1rem;/*root element*/
+}
+p{
+    font-size: 1em;/*amplified root element*/
+}
