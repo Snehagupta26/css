@@ -1,0 +1,16 @@
+h1{
+    border-style: solid;
+    border-width: 3px;/*by defualt 1px*/
+    border-color: bisque;
+    border-radius: 5px;/*higher number more rounded max 20px*/
+
+    /*shortcut*/
+    border:3px solid bisque;
+}
+p{
+    border-bottom : 5px dashed blanchedalmond;
+    border-top : 3px dashed yellow;
+    border-left : 3px solid orange;
+    border-right : 3px solid blue;
+    border-radius: 10px;
+}

@@ -1,0 +1,21 @@
+/*font face rule*/
+@font-face {
+    font-family: PlaywriteCU;
+    src: url(fonts/PlaywriteCU-VariableFont_wght.ttf);
+}
+h1{
+    font-family: Verdana, Arial;
+    font-family: PlaywriteCU;
+    /*if browser cant show verdana it will show arial*/
+}
+p{
+    font-family: 'Lucida Sans', 'Courier New';
+    font-size : 1em;
+    /*normally - 16px*/
+    /* px em */
+    /*1em - 100% normal size 1.1em - 110% 1.5em 1505 0.5em 50%*/
+    font-weight: normal;
+    /*normal , bold;*/
+    font-style: italic;
+    /*normal italic*/
+}
